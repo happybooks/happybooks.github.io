@@ -1,9 +1,66 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <title>Home</title>
-    </head>
-    <body>
-      <h1>Hey there! Make this awesome!</h1>
-    </body>
-  </html>
+<html>
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+		<link rel="icon" type="image/png" href="images/hb-logo.png">
+	</head>
+	<body>
+		<div class="container">
+			<div class="banner-left">
+				<div class="content">
+					<br><br>
+					<div class="logo w3-center">
+						<a href="#"><img src="images/hb-logo.png" id="logo"></a>
+					</div>
+					<br><br>
+					<div class="text">
+						<h1 class="w3-center">Happybooks</h1>
+						<h4 class="w3-center">Handmade Pressed Flower Bookmarks</h3>
+					</div>
+				</div>
+			</div> <!-- </banner-left> -->
+			<div class="banner-right">
+				<div class="menu">
+					<nav>
+					 <a href="https://www.facebook.com/happybooksindia/" target="_blank"><img src="images/facebook.jpg" id="nav-img">Facebook</a><a href="contactus.html"><img src="images/shop.png" id="nav-img">Contact Us</a><a href="https://www.instagram.com/happybooksindia/?hl=en" target="_blank"><img src="images/instagram.jpg" id="nav-img">Instagram</a>
+					</nav>
+				</div>
+				<div class="w3-content w3-section" style="max-width:550px;">
+						<img class="slideshow" src="images/1.jpg" style="width:100%">
+  					<img class="slideshow" src="images/2.jpg" style="width:100%">
+  					<img class="slideshow" src="images/3.jpg" style="width:100%">
+  					<img class="slideshow" src="images/4.jpg" style="width:100%">
+				</div>	
+			</div> <!-- </banner-right> -->
+		</div>  <!-- </container> -->
+		<div class="joinus">
+			<h1 class="w3-center">Easy enough to make one yourself? <a href="joinus.html" class="btn btn-ghost">Become a Creator</a></h1>		
+		</div>
+		<div class="w3-light-grey w3-container w3-padding-32 w3-center" style="margin-top:75px;padding-right:58px">
+			<p id="copyright" property="dc:rights">&copy;<span property="dc:dateCopyrighted">2017</span><span property="dc:publisher"> / Happybooks Inc with love from Delhi / Designed by Paritosh Mehta</span>
+			</p>
+		</div>
+	</body>
+</html>
+
+
+<script type="text/javascript">
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	    var i;
+	    var x = document.getElementsByClassName("slideshow");
+	    for (i = 0; i < x.length; i++) {
+	       x[i].style.display = "none";  
+	    }
+	    myIndex++;
+	    if (myIndex > x.length) {myIndex = 1}    
+	    x[myIndex-1].style.display = "block";  
+	    setTimeout(carousel, 1700); // Change image every 2 seconds
+	}
+</script>
