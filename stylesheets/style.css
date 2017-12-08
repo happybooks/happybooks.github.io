@@ -3,7 +3,7 @@
 /*-------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script');
 @import url('https://fonts.googleapis.com/css?family=Sriracha');
-
+@import url('https://fonts.googleapis.com/css?family=Cabin');
 /*-------------------------------------*/
 /* BASIC SETUP */
 /*-------------------------------------*/
@@ -20,7 +20,7 @@
 
 .banner-left {
 	flex: 1;
-	background-color: #f44336;
+	background-color: #D58EB5;
 
 	/*centering*/
 	display: flex;
@@ -47,6 +47,8 @@
 }
 .text h1 {
 	font-size: 50px;
+}
+#title {
 	font-family: 'Sriracha', cursive;
 }
 /*-------------------------------------*/
@@ -73,7 +75,7 @@
 .menu nav a {
 	text-decoration: none;
 	flex-grow: 1;
-	font-family: 'Sriracha', cursive;
+	font-family: 'Cabin', sans-serif;
 	text-align: center;
 	padding: 10px;
 	font-size: 32px;
@@ -85,6 +87,9 @@
 }
 #nav-img {
 	margin-bottom: -2px;
+}
+#fb {
+	margin-bottom: 0px;
 }
 
 /*-------------SLIDESHOW---------------*/
@@ -99,7 +104,7 @@
 	padding: 17px;
 	font-size: 150%;
 	margin-bottom: 0px;
-	font-family: 'Sriracha', cursive;
+	font-family: 'Cabin', sans-serif;
 	color: #2b2a27;
 }
 .btn:link,
@@ -113,16 +118,16 @@
 }
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 2px solid #f44336;
-    color: #f44336;
+    border: 2px solid #D58EB5;
+    color: #D58EB5;
 }
 .btn:hover,
 .btn:active {
-    background-color: #f44336;
+    background-color: #D58EB5;
 }
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 2px solid #f44336;
+    border: 2px solid #D58EB5;
     color: #fff;
 }
 
@@ -132,7 +137,7 @@
 
 /*-------------NAVBAR---------------*/
 .logo-left {
-	background-color: #f44336;
+	background-color: #D58EB5;
 	padding: 15px;
 	margin-top: 2.5vh;
 	flex: 1;
@@ -155,10 +160,10 @@
 }
 .content h1, h3, h5 {
 	margin-top: 2.5vh;
-	font-family: 'Sriracha', cursive;
+	font-family: 'Cabin', sans-serif;
 }
 .content h1 {
-	font-size: 350%;
+	font-size: 300%;
 }
 .content h3 {
 	font-size: 220%;
@@ -186,7 +191,7 @@
 /* COPYRIGHT */
 /*-------------------------------------*/
 #copyright {
-	font-family: 'Sriracha', cursive;
+	font-family: 'Cabin', sans-serif;
 	color: #c8c8c8;
 	font-size: 120%;
 }
