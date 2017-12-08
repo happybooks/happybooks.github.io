@@ -81,7 +81,7 @@
 	font-size: 32px;
 }
 .menu nav img {
-	height: 23px;
+	height: 35px;
 	width: auto;
 	margin-right: 5px;
 }
@@ -102,8 +102,8 @@
 /*-------------------------------------*/
 .joinus h1 {
 	padding: 17px;
+	margin: 20px;
 	font-size: 150%;
-	margin-bottom: 0px;
 	font-family: 'Cabin', sans-serif;
 	color: #2b2a27;
 }
@@ -129,6 +129,12 @@
 .btn-ghost:active {
     border: 2px solid #D58EB5;
     color: #fff;
+}
+
+/*-------------SOCIALS---------------*/
+
+#social {
+	margin-right: 30px;
 }
 
 /*-------------------------------------*/
